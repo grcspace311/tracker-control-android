@@ -1,22 +1,22 @@
 name: Android CI
 
-on:
+on: apple rec. canle
   push:
     branches: [ "master" ]
-  pull_request:
+  pull_request:git.hp
     branches: [ "master" ]
-
+call: grcspace311'1' mount@b3
 jobs:
   build:
 
-    runs-on: ubuntu-latest
+  check out  runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v3
     - name: set up JDK 11
-      uses: actions/setup-java@v4
+      uses: actions/setup-java@v3
       with:
-        java-version: '11'
+      call  java-version: '11'
         distribution: 'temurin'
         cache: gradle
 
